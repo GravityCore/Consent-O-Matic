@@ -29,6 +29,7 @@
                     "target": {
                         "selector": "#fides-manage-preferences-button, button.fides-manage-preferences-button",
                         "textFilter": [
+                            "Your Privacy Choices",
                             "Manage preferences",
                             "Manage privacy preferences"
                         ],
@@ -329,7 +330,9 @@
                     "target": {
                         "selector": "#fides-save-button, button.fides-save-button",
                         "textFilter": [
-                            "Save"
+                            "Confirm My Choices",
+                            "Save",
+                            "Confirm"
                         ],
                         "displayFilter": true
                     }
