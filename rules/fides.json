@@ -30,6 +30,8 @@
                         "selector": "#fides-manage-preferences-button, button.fides-manage-preferences-button",
                         "textFilter": [
                             "Your Privacy Choices",
+                            "Customise",
+                            "Customize",
                             "Manage preferences",
                             "Manage privacy preferences"
                         ],
