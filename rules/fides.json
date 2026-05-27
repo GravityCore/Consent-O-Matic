@@ -15,7 +15,7 @@
                     {
                         "type": "css",
                         "target": {
-                            "selector": "#fides-overlay[aria-hidden='false'], #fides-banner[aria-hidden='false']",
+                            "selector": "#fides-overlay, #fides-banner, #fides-modal",
                             "displayFilter": true
                         }
                     }
