@@ -322,6 +322,19 @@
                     ]
                 },
                 "name": "DO_CONSENT"
+            },
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#fides-save-button, button.fides-save-button",
+                        "textFilter": [
+                            "Save"
+                        ],
+                        "displayFilter": true
+                    }
+                },
+                "name": "SAVE_CONSENT"
             }
         ]
     }
