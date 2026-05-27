@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cavi-au/Consent-O-Matic/master/rules.schema.json",
+    "fides": {
+        "detectors": [
+            {
+                "presentMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#fides-overlay, #fides-modal, #fides-banner"
+                        }
+                    }
+                ],
+                "showingMatcher": [
+                    {
+                        "type": "css",
+                        "target": {
+                            "selector": "#fides-overlay[aria-hidden='false'], #fides-banner[aria-hidden='false']",
+                            "displayFilter": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
