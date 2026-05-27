@@ -21,6 +21,22 @@
                     }
                 ]
             }
+        ],
+        "methods": [
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#fides-manage-preferences-button, button.fides-manage-preferences-button",
+                        "textFilter": [
+                            "Manage preferences",
+                            "Manage privacy preferences"
+                        ],
+                        "displayFilter": true
+                    }
+                },
+                "name": "OPEN_OPTIONS"
+            }
         ]
     }
 }
